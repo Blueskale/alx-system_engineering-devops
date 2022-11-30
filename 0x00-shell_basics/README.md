@@ -1,2 +1,2 @@
 These scripts are shell scripting commands.
-Six scripts in this working tree. 
+Seven scripts in this working tree. 
