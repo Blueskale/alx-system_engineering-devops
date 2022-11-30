@@ -1,2 +1,2 @@
 These scripts are shell scripting commands.
-Sixteen scripts in this working tree so far 
+Sixteen (16) scripts in this working tree so far 
