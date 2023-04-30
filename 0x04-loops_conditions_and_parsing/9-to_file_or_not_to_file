@@ -1,22 +1,20 @@
-#!/bin/env bash
-# This script checks if the file "school" exists and prints an appropriate message
-# It also checks if the file is empty or not and if it is a regular file
-# If the file exists and is not empty, and if it is a regular file, it prints 
-"school is a regular file"
-# If the file does not exist, it prints "school file does not exist"
-# If the file exists but is empty, it prints "school file is empty"
-# If the file exists but is not a regular file, it prints nothing
+#!/usr/bin/env bash
+# Displays information about the file `holbertonschool`.
 
-if [ -e school ]; then
-    echo "school file exists"
-    if [ -s school ]; then
-        echo "school file is not empty"
-        if [ -f school ]; then
-            echo "school is a regular file"
-        fi
-    else
-        echo "school file is empty"
-    fi
+if [ -e "holbertonschool" ]
+then
+  echo "holbertonschool file exists"
+  if [ -s "holbertonschool" ]
+  then
+    echo "holbertonschool file is not empty"
+  else
+    echo "holbertonschool file is empty"
+  fi
+
+  if [ -f "holbertonschool" ]
+  then
+    echo "holbertonschool is a regular file"
+  fi
 else
-    echo "school file does not exist"
+  echo "holbertonschool file does not exist"
 fi
